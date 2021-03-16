@@ -2,7 +2,37 @@
 <html lang="en">
 
     <head>
-    
+    <style> 
+        body{
+            background-color: darkgray;
+            color:firebrick;
+            text-align: center;
+        }
+
+        #callMe {
+            background-color: firebrick;
+            color:floralwhite;
+        }
+
+        #callMe:hover {
+            background-color: crimson;
+            color: white;
+        }
+
+        li {
+            margin: 50px;
+        }
+        #clear-list{
+            background-color: rgb(0, 94, 28);
+            color:floralwhite;
+        }
+
+        #clear-list:hover {
+            background-color: rgb(30, 153, 26);
+            color: white;
+        }
+
+    </style>
         <meta charset = "UTF-8">
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,7 +41,10 @@
     </head>
 
     <body>
-
+        <h1>The Plan</h1>
+        <div style="text-align: center;">
+            <button id="callMe">What's the plan?</button>
+          </div>        
         <script src = "index.js"></script>
     
     </body>
