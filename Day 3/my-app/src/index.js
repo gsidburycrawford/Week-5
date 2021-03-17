@@ -3,8 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import WelcomeFN from './WelcomeFN'
-import WelcomeCN from './WelcomeCL'
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
